@@ -1,0 +1,35 @@
+ng new project-name
+y
+css
+cd project-name
+npm i bootstrap
+ng build
+y
+ng serve --o
+
+
+{crud
+
+post
+put
+delete
+get}
+
+models(inside classes) ---> folder
+services,Dao ---> folder
+typescript
+html
+
+NEW TERMINAL
+
+cd project-name
+cd src/app
+mkdir models
+mkdir services
+cd models
+ng g class class-name ----> class creation in models
+ng g s class-name ---> services
+ng g c component-name ---> component
+
+db-->3306
+angular-->4200
