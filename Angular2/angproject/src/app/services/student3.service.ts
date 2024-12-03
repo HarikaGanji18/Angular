@@ -10,7 +10,7 @@ export class Student3Service {
   private baseurl = 'assets/student3.json';
   constructor(private http: HttpClient) {}
   getall(): Observable<any[]> {
-    return this.http.get<any[]>(`${this.baseurl}`);
+    return this.http.get<any>(`${this.baseurl}`);
   }
   getByEmail(email: string): Observable<any[]> {
     return this.http.get<any>(`${this.baseurl}/search?email=${email}`);
