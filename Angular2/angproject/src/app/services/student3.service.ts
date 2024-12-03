@@ -7,7 +7,7 @@ import { Student3 } from '../models/student3';
   providedIn: 'root',
 })
 export class Student3Service {
-  private baseurl = '';
+  private baseurl = 'assets/student3.json';
   constructor(private http: HttpClient) {}
   getall(): Observable<any[]> {
     return this.http.get<any[]>(`${this.baseurl}`);
