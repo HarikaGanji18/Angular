@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title":"BookSphere",
+    "src":"https://png.pngtree.com/png-vector/20231020/ourmid/pngtree-watercolor-library-book-clip-art-png-image_10285452.png",
+    "alt":"No Image Found",
+    "price":100,
+    "description":"In this guide, I'll walk you through how to write a book description, provide you a template, and include good and bad book description examples.",
+    "subdescription":"Shine your Knowledge!!",
+    "headings":"Fictional Books",
+    "button":"Explore Now"
+  },
+  {
+    "id": 2,
+    "title":"BookSphere",
+    "src":"https://png.pngtree.com/png-vector/20231020/ourmid/pngtree-watercolor-library-book-clip-art-png-image_10285452.png",
+    "alt":"No Image Found",
+    "price":50,
+    "description":"In this guide, I'll walk you through how to write a book description, provide you a template, and include good and bad book description examples.",
+    "subdescription":"Shine your Knowledge!!",
+    "headings":"Fictional Books",
+    "button":"Explore Now"
+  },
+  {
+    "id": 3,
+    "title":"BookSphere",
+    "src":"https://png.pngtree.com/png-vector/20231020/ourmid/pngtree-watercolor-library-book-clip-art-png-image_10285452.png",
+    "alt":"No Image Found",
+    "price":10,
+    "description":"In this guide, I'll walk you through how to write a book description, provide you a template, and include good and bad book description examples.",
+    "subdescription":"Shine your Knowledge!!",
+    "headings":"Fictional Books",
+    "button":"Explore Now"
+  }
+
+
+]

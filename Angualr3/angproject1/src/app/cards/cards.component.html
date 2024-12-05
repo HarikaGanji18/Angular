@@ -1,0 +1,10 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" *ngFor="let record of records">
+    <div class="card">
+      <img [src]="record.src" [alt]="record.alt">
+      <h1>{{record.title | lowercase}}</h1>
+      <p>{{record.price | currency}}</p>
+      <button class="btn btn-dark" (click)="cardDetails(record.id)">{{record.button}}</button>
+    </div>
+</div>
+</div>

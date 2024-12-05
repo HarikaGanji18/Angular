@@ -1,0 +1,9 @@
+<div class="card-container">
+    <div *ngIf="card">
+        <nav>Home</nav>
+        <img [src]="card.src" [alt]="card.alt">
+        <h1>{{card.title | lowercase}}</h1>
+        <p>{{card.price | currency}}</p>
+    </div>
+</div>
+

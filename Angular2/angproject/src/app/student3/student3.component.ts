@@ -8,12 +8,12 @@ import { Student3 } from '../models/student3';
   styleUrls: ['./student3.component.css'],
 })
 export class Student3Component {
-  records: Student3[]=[]
+  records: Student3[] = [];
   constructor(private service: Student3Service) {}
-  ngOnInit():void{
+  ngOnInit(): void {
     this.getRecords();
   }
-  getRecords():void{
-    this.service.getall().subscribe(data=>this.records=data)
+  getRecords(): void {
+    this.service.getall().subscribe((data) => (this.records = data));
   }
 }
